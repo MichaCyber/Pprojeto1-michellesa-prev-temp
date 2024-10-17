@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://fastly.picsum.photos/id/586/1920/1089.jpg?hmac=n5lyfP90nBZRcUo5JQQF1UyXLBGpGkonsZA4NthUNj4");
+}
+
+
+
+.caixa-maior {
+    background: #000000;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 400px;
+
+
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7C7C7C2B;
+    color: #ffffff;
+    width: calc(100% - 50px);
+
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 15px;
+    height: auto;
+
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.botao-buscar:hover {
+    background-color: rgba(124, 124, 124, 0.4);
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+
+.caixa-menor {
+    display: flex;
+    s margin-top: 20px;
+    align-items: center;
+}
+
+.texto-previsao {
+
+    color: white !important;
+    margin-left: 20px;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.descricao-tempo {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.previsao-hoje {
+    color: white !important;
+    text-transform: capitalize;
+}
+
+
+.nublado {
+    color: #ffffff;
+    margin-bottom: 20px;
+    /* Espaço abaixo da palavra "nublado" */
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 0;
+    /* Remova a margem superior, se necessário */
+}
